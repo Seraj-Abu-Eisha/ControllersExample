@@ -1,13 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
 namespace ControllersExample.Controllers
-{   
-    public class HomeController 
+{
+    [Controller]
+    public class HomeController :Controller
     {
-        [Route("sayhello")]
-        public string method1()
+        [Route("home")]
+        [Route("/")]
+        public ContentResult Index()
         {
-            return "Hello World";
+            return Content("<h1>:3</h1><h2>Meow</h2>", "text/HTML"); 
+        }
+        [Route("about")]
+        public string About()
+        {
+            return "Hello From about, this is about page";
+        }
+        [Route("contact-us/{mobile:regex(^\\d{{10}}$)}")]
+        public string Contact()
+        {
+            return "Hello From contact-us, this is contact-us page";
         }
     
     }
