@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B5C2DE68-DCA4-43A3-AC5C-F02AAB9DBAD3}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B5C2DE68-DCA4-43A3-AC5C-F02AAB9DBAD3}|ControllersExample\\ControllersExample.csproj|c:\\users\\working\\source\\repos\\controllersexample\\controllersexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5C2DE68-DCA4-43A3-AC5C-F02AAB9DBAD3}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5C2DE68-DCA4-43A3-AC5C-F02AAB9DBAD3}|ControllersExample\\ControllersExample.csproj|c:\\users\\working\\source\\repos\\controllersexample\\controllersexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5C2DE68-DCA4-43A3-AC5C-F02AAB9DBAD3}|ControllersExample\\ControllersExample.csproj|solutionrelative:controllersexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -28,7 +32,7 @@
               "RelativeDocumentMoniker": "ControllersExample\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Working\\source\\repos\\ControllersExample\\ControllersExample\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ControllersExample\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T19:52:21.979Z",
               "IsPinned": true,
@@ -36,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Working\\source\\repos\\ControllersExample\\ControllersExample\\Program.cs",
               "RelativeDocumentMoniker": "ControllersExample\\Program.cs",
@@ -45,7 +49,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-10T19:59:23.747Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Working\\source\\repos\\ControllersExample\\ControllersExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ControllersExample\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\Working\\source\\repos\\ControllersExample\\ControllersExample\\Models\\Person.cs",
+              "RelativeToolTip": "ControllersExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T21:05:17.386Z",
               "EditorCaption": ""
             }
           ]
