@@ -27,3 +27,4 @@ C:\Users\Working\source\repos\ControllersExample\ControllersExample\obj\Debug\ne
 C:\Users\Working\source\repos\ControllersExample\ControllersExample\obj\Debug\net9.0\ControllersExample.pdb
 C:\Users\Working\source\repos\ControllersExample\ControllersExample\obj\Debug\net9.0\ControllersExample.genruntimeconfig.cache
 C:\Users\Working\source\repos\ControllersExample\ControllersExample\obj\Debug\net9.0\ref\ControllersExample.dll
+C:\Users\Working\source\repos\ControllersExample\ControllersExample\bin\Debug\net9.0\ControllersExample.staticwebassets.runtime.json

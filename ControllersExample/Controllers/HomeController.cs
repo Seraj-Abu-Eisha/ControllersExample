@@ -18,10 +18,21 @@ namespace ControllersExample.Controllers
                 FName = "James", LName = "Smith", Age = 36};
             return Json(person);
         }
-        [Route("contact-us/{mobile:regex(^\\d{{10}}$)}")]
-        public string Contact()
+        [Route("file-download")]
+        public IActionResult FileDownload()
         {
-            return "Hello From contact-us, this is contact-us page";
+            return File("/sample.pdf", "application/pdf");
+        }
+        [Route("file-download2")]
+        public IActionResult FileDownload2()
+        {
+            return new PhysicalFileResult(@"c:\aspnetcore\sample.pdf", "application/pdf");
+        }
+        [Route("file-download3")]
+        public IActionResult FileDownload3()
+        {
+            byte[] bytes = System.IO.File.ReadAllBytes(@"c:\aspnetcore\sample.pdf");
+            return new FileContentResult(bytes, "application/pdf");
         }
     
     }
